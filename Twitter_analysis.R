@@ -240,13 +240,6 @@ plot(result, type = "l")
 #### Need a Token Authentican ###
 library(twitteR)
 
-API_key <- "zCF73lnbwGzHM0XcfiUBP2Hjz"
-API_secret  <- "ojHF2FtS6oD5xw3XoOAZuxcJXmKyc2LkRB2IPAu6vUl1gxjSPZ"
-
-
-access_token <- "183686046-tcWgLtgSTANnGhkIIpN8zXZfljcG7E6spG2775do"
-
-access_token_secret <- "Pxk3u67FzxJ0i2qfSvEUn5kXWsQzgm7H40y6FYYS7c8R6"
 
 setup_twitter_oauth(API_key,API_secret,access_token,access_token_secret)
 
